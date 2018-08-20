@@ -44,6 +44,7 @@ h2 {
 
 ul {
   list-style: disc inside none;
+  margin-
 }
 
 li {
@@ -60,4 +61,26 @@ code {
   white-space: pre-wrap;
   margin-left: 20px;
   line-height: 25px;
+}
+
+@media (max-width: 815px) {
+  #main-doc {
+    grid-template-columns: auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav ul {
+    height: 200px;
+    overflow: auto;
+    margin-bottom: 0px;
+  }
+
+  .content {
+    margin: 0 20 20 20;
+  }
+
+
 }
