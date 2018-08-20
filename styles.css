@@ -42,8 +42,13 @@ h2 {
   font-weight: 400;
 }
 
+ul {
+  list-style: disc inside none;
+}
+
 li {
   line-height: 25px;
+  /* padding-left:1em */
 }
 
 p {
