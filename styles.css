@@ -11,9 +11,9 @@ body {
 
 #navbar {
   width: 100%;
-  border-style: double;
-  border-width: 0 1px 0 0;
-  border-style: double;
+  border-style: solid;
+  border-color: gray;
+  border-width: 0 3px 0 0;
 }
 
 nav ul {
@@ -28,6 +28,7 @@ nav li {
   border-style: solid;
   padding-top: 7px;
   padding-bottom: 7px;
+  padding-left: 25px;
 }
 
 nav header {
@@ -36,7 +37,7 @@ nav header {
 
 .nav-link {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
   color: black;
   margin: 10 15 10 15;
 }
@@ -89,6 +90,9 @@ code {
     height: 200px;
     overflow: auto;
     margin-bottom: 0px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 3px 0 3px 0;
   }
 
   .content {
